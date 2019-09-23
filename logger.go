@@ -16,7 +16,7 @@ func Field(key, value string) GenericField {
 	return GenericField{Key: key, Value: value}
 }
 
-// Logger ...
+// Logger represents an active logging object that generates lines of output to an io.Writer
 type Logger struct {
 	formatter   Formatter
 	innerLogger *log.Logger
