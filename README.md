@@ -1,5 +1,7 @@
 # go-loglevel
-[![Build Status](https://travis-ci.org/allisson/go-loglevel.svg)](https://travis-ci.org/allisson/go-loglevel) [![Go Report Card](https://goreportcard.com/badge/github.com/allisson/go-loglevel)](https://goreportcard.com/report/github.com/allisson/go-loglevel)
+[![Build Status](https://travis-ci.org/allisson/go-loglevel.svg)](https://travis-ci.org/allisson/go-loglevel)
+[![Go Report Card](https://goreportcard.com/badge/github.com/allisson/go-loglevel)](https://goreportcard.com/report/github.com/allisson/go-loglevel)
+[![Documentation](https://godoc.org/github.com/allisson/go-loglevel?status.svg)](http://godoc.org/github.com/allisson/go-loglevel)
 
 Simple implementation of logs with level filter.
 

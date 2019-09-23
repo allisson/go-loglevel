@@ -38,27 +38,27 @@ func (l *Logger) log(logLevel int, msg string, fields ...GenericField) {
 	l.innerLogger.Println(formatedMsg)
 }
 
-// Debug ...
+// Debug prints log with DEBUG level
 func (l *Logger) Debug(msg string, fields ...GenericField) {
 	l.log(StringToLevel("DEBUG"), msg, fields...)
 }
 
-// Info ...
+// Info prints log with INFO level
 func (l *Logger) Info(msg string, fields ...GenericField) {
 	l.log(StringToLevel("INFO"), msg, fields...)
 }
 
-// Warning ...
+// Warning prints log with WARNING level
 func (l *Logger) Warning(msg string, fields ...GenericField) {
 	l.log(StringToLevel("WARNING"), msg, fields...)
 }
 
-// Error ...
+// Error prints log with ERROR level
 func (l *Logger) Error(msg string, fields ...GenericField) {
 	l.log(StringToLevel("ERROR"), msg, fields...)
 }
 
-// Critical ...
+// Critical prints log with CRITICAL level
 func (l *Logger) Critical(msg string, fields ...GenericField) {
 	l.log(StringToLevel("CRITICAL"), msg, fields...)
 }
