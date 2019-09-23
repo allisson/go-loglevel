@@ -30,7 +30,7 @@ var (
 )
 
 func init() {
-    // Get level from LOG_LEVEL envvar
+    	// Get level from LOG_LEVEL envvar
 	level := loglevel.LevelFromEnv()
 	simpleLogger = loglevel.NewLogger(os.Stdout, "", log.LstdFlags, level, loglevel.NewSimpleFormatter())
 	jsonLogger = loglevel.NewLogger(os.Stdout, "", log.LstdFlags, level, loglevel.NewJSONFormatter())
