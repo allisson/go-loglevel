@@ -51,6 +51,6 @@ go run example/main.go
 ```
 
 ```bash
-LOG_LEVEL=CRITICAL go run example/main.go
+LOG_LEVEL=CRITICAL go run example/main.go # don't show anything
 
 ```
